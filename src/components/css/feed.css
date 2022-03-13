@@ -1,0 +1,44 @@
+.feed{
+    padding: 30px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.hr{
+    width: 50%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-width:1300px){
+    .hr{
+        width: 70%;
+    }
+
+    
+    
+}
+@media only screen and (max-width:1000px){
+    .hr{
+        width: 80%;
+    }
+    
+}
+
+@media only screen and (max-width:800px){
+    .hr{
+        width: 90%;
+    }
+
+}
+
+
+@media screen and (min-width:1400px){
+    .hr{
+        width: 700px;
+    }
+
+}
